@@ -4,6 +4,71 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/principal_backgroundmdpi"
     tools:context=".PresentationActivity">
 
+    <ImageView
+        android:id="@+id/btnConocenos"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSlogan"
+        app:srcCompat="@drawable/lt_button_back_white" />
+
+    <TextView
+        android:id="@+id/tvProductos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/roboto_light"
+        android:text="Páginas web * Aplicaciones móviles * Marketing digial"
+        android:textColor="@color/colorWhiteLt"
+        app:layout_constraintEnd_toEndOf="@+id/btnConocenos"
+        app:layout_constraintStart_toStartOf="@+id/btnConocenos"
+        app:layout_constraintTop_toBottomOf="@+id/btnConocenos" />
+
+    <TextView
+        android:id="@+id/tvButtonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_bold"
+        android:text="CONOCENOS"
+        android:textColor="@color/colorPrincipalLt"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnConocenos"
+        app:layout_constraintEnd_toEndOf="@+id/btnConocenos"
+        app:layout_constraintStart_toStartOf="@+id/btnConocenos"
+        app:layout_constraintTop_toTopOf="@+id/btnConocenos" />
+
+    <TextView
+        android:id="@+id/tvSlogan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_light"
+        android:text="Programamos tu idea"
+        android:textColor="@color/colorWhiteLt"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/ivLogo"
+        app:layout_constraintStart_toStartOf="@+id/ivLogo"
+        app:layout_constraintTop_toBottomOf="@+id/ivLogo" />
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/lt_dimen_200dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline"
+        app:srcCompat="@drawable/lt_logo_principal_white" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.2" />
 </androidx.constraintlayout.widget.ConstraintLayout>
