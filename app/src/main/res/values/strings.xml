@@ -6,4 +6,8 @@
     <string name="title_dashboard">Nosotros</string>
     <string name="title_notifications">Contacto</string>
     <string name="title_activity_home_principal">MainActivity</string>
+    <string name="txt_we_us">Somos</string>
+    <string name="lt_specialities">Especialidades</string>
+    <string name="txtBodyAppsMoviles">Diseñamos aplicaciones móviles desde cero y también  mejoramos tu aplicación actual.</string>
+    <string name="txtBodySomos">Aceleramos tu crecimiento aplicando procesos innovadores. Creamos soluciones que cubran y excedan las expectativas del mercado.</string>
 </resources>
