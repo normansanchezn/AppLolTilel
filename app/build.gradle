@@ -52,6 +52,9 @@ dependencies {
     implementation 'androidx.navigation:navigation-fragment-ktx:2.3.0'
     implementation 'androidx.navigation:navigation-ui-ktx:2.3.0'
 
+    // Picasso
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+
     // Firebase
     // No creo que necesite Firebase, en caso de usarlo en contactos, editar esta parte
 
