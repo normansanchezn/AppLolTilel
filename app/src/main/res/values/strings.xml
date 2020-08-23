@@ -13,4 +13,7 @@
     <string name="txt_we">Nosotros</string>
     <string name="txt_body_weus">Somos una agencia de innovación que genera soluciones tecnológicas a la medida. Nos esforzamos en mostrarte las ventajas de saltar al mundo digital, te acompañaremos desde el desarrollo e implementación hasta tu posicionamiento online.</string>
     <string name="txt_team_us">Nuestro equipo</string>
+    <string name="txt_contacto">Contacto</string>
+    <string name="txt_body_contact">¡Estas a punto de hacer que tu negocio se exitoso! \n \nNosotros contactarémos contigo para agendar una cita.</string>
+    <string name="name">Nombre completo</string>
 </resources>

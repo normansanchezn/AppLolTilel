@@ -18,8 +18,12 @@ class NotificationsFragment : Fragment() {
 
   override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
     notificationsViewModel = ViewModelProviders.of(this).get(NotificationsViewModel::class.java)
-
     val root = inflater.inflate(R.layout.fragment_notifications, container, false)
+
+    val tvContact:TextView = root.findViewById(R.id.tvBodyContact)
+    notificationsViewModel.text.observe(viewLifecycleOwner, Observer {
+        tvContact.text = resources.getString(R.string.txt_body_contact)
+    })
 
     return root
   }

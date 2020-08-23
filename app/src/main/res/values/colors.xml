@@ -6,4 +6,7 @@
     <color name="colorPrincipalLt">#28345B</color>
     <color name="colorGrayLt">#C4C4C3</color>
     <color name="colorWhiteLt">#FFFFFF</color>
+    <color name="colorLightGrey">#bdbdbd</color>
+    <color name="colorDarkGrey">#757575</color>
+    <color name="colorGrey4B">#4B4B4B</color>
 </resources>
