@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">LolTilel</string>
     <string name="content_description">Content description</string>
+    <string name="title_activity_home">MainActivity</string>
+    <string name="title_home">LolTilel</string>
+    <string name="title_dashboard">Nosotros</string>
+    <string name="title_notifications">Contacto</string>
+    <string name="title_activity_home_principal">MainActivity</string>
 </resources>

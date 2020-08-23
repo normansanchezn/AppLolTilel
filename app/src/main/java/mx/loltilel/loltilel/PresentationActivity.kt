@@ -1,5 +1,6 @@
 package mx.loltilel.loltilel
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
@@ -11,10 +12,8 @@ class PresentationActivity : AppCompatActivity() {
         setContentView(R.layout.activity_presentation)
 
         btnConocenos.setOnClickListener {
-            Toast.makeText(
-                this,
-                "Estamos trabajando en esta funcionalidad, espera nuevas actualizaciones", Toast.LENGTH_SHORT)
-                .show()
+            this.finish()
+            startActivity(Intent(this, HomeActivity::class.java))
         }
     }
 }
