@@ -33,6 +33,8 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+
+
 }
 
 dependencies {
@@ -54,6 +56,7 @@ dependencies {
 
     // Picasso
     implementation 'com.squareup.picasso:picasso:2.5.2'
+    implementation 'androidx.annotation:annotation:1.1.0'
 
     // Firebase
     // No creo que necesite Firebase, en caso de usarlo en contactos, editar esta parte

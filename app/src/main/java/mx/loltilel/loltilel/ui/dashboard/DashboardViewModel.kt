@@ -29,8 +29,8 @@ class DashboardViewModel : ViewModel() {
 
         colaboradores.add(
             ColaboradorModel(
-                "https://firebasestorage.googleapis.com/v0/b/lol-tilel.appspot.com/o/photo_armando.png?alt=media&token=e34e49f6-3c5b-4eec-a36c-986dbe58fe91",
-                "Armando",
+                "https://firebasestorage.googleapis.com/v0/b/lol-tilel.appspot.com/o/armando_photo.png?alt=media&token=6afa743f-fd47-4f3f-99c5-ba5a6a58a7fe",
+                "Armando Rafael Dávalos Herrera",
                 "Fundador - Director de operaciones",
                 "https://www.linkedin.com/"))
 

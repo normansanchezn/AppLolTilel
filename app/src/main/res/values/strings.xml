@@ -16,4 +16,16 @@
     <string name="txt_contacto">Contacto</string>
     <string name="txt_body_contact">¡Estas a punto de hacer que tu negocio se exitoso! \n \nNosotros contactarémos contigo para agendar una cita.</string>
     <string name="name">Nombre completo</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="invalid_name">Debe ingresar nombre.</string>
+    <string name="invalid_correo">Debe introducir un correo válido.</string>
+    <string name="invalid_phone">Debe introducir un número a 10 dígitos</string>
 </resources>
